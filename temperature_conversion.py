@@ -11,7 +11,7 @@ try:
   temp_to = (input('What temperature are you converting to(°C/°F/K)'))
   temperature = ast.literal_eval(input('What is the temperature?:'))
 
-  # convert to Fahrenheit, Celcius and Kelvin respectively
+  # convert to Fahrenheit, Celcius and Kelvin
   fah_temp_from_cel = (temperature * 1.8) + 32 # temp in Fahrenheit from Celcius
   kel_temp_from_cel = temperature + 273.15 # temp in Kelvin from Celcius
   cel_temp_from_fah = (temperature - 32) * 5/9 # temp in Celcius from Kelvin
